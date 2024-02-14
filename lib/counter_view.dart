@@ -5,7 +5,7 @@ import 'counter_view_model.dart';
 
 class CounterView extends HookConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
-    print("Rebuilding checker");
+    print("Rebuilding checkr");
     final provider = ref.watch(stateProvider);
     return SafeArea(
       child: Scaffold(
