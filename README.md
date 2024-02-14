@@ -1,16 +1,2 @@
 # counter_riverpod
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This project is a simple counter app with a bottom navigation bar. Users can increment the counter by tapping on the screen, and there's an additional button to check if the current count is a prime number. Upon clicking the "Is prime?" button, users are directed to a new page where the app verifies if the current count is prime and prints the result accordingly. I've used Riverpod state management to handle this project.
